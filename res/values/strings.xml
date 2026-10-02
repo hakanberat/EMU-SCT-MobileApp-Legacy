@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SCHOOL OF COMPUTING AND TECNOLOGY</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="sct"> <a href="http://sct.emu.edu.tr">School of Computing and Technology</a></string>
+	<string name="pdram"> <a href="http://pdram.emu.edu.tr">PDRAM</a></string>
+    <string name="library"> <a href="http://ww1.emu.edu.tr/en/services/library/c/715">Library</a></string>
+	<string name="cs"> <a href="http://ww1.emu.edu.tr/en/services/computer-center/c/720">Computer Center</a></string>
+	<string name="health"> <a href="http://ww1.emu.edu.tr/en/services/health-center/c/678">Health Center</a></string>
+	<string name="family"> <a href="http://familyportal.emu.edu.tr">Family Portal</a></string>
+	<string name="academic"> <a href="http://ww1.emu.edu.tr/en/academics/academic-calendar/c/1336">Academic Calendar</a></string>
+	<string name="stdportal"> <a href="http://stdportal.emu.edu.tr">Student Portal</a></string>
+	<string name="registeroffice"> <a href="http://registrar.emu.edu.tr">Register Office</a></string>
+					
+<string name="longtext">
+   <![CDATA[
+    <html><body><p style="text-align:justify">
+    The School of Computing and Technology (SCT
+   </p></body></html>]]>
+   </string>
+	
+	
+	
+</resources>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolofcomputingandtecnology"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    
+    <supports-screens
+    android:anyDensity="true"
+    android:largeScreens="true"
+    android:normalScreens="true"
+    android:resizeable="true"
+    android:smallScreens="true"
+    android:xlargeScreens="true" />
+   
+    
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/emuiconlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.schoolofcomputingandtecnology.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Dept" android:label="Departments"></activity>
+        <activity android:name=".Contact" android:label="Contact Form"></activity>
+        <activity android:name=".Login" android:label="Login"></activity>
+        <activity android:name=".Admin" android:label="Welcome Admin!"></activity>
+        <activity android:name=".AdminContact" android:label="Messages"></activity>
+        <activity android:name=".Links" android:label="Useful Links"></activity>
+        <activity android:name=".About" android:label="About SCT"></activity>
+        <activity android:name=".Staff" android:label="Staff Information"></activity>
+        <activity android:name=".Admission" android:label="Admission Requirements"></activity>
+        <activity android:name=".Announcement" android:label="Announcements"></activity>
+        <activity android:name=".MasterofIT" android:label="Information Technology Master's Program"></activity>
+        <activity android:name=".BSIT" android:label="Information Technology Undergraduate Program"></activity>
+        <activity android:name=".ConstTech" android:label="Construction and Technical Drawing Technologies Technician Program (Turkish)"></activity>
+        <activity android:name=".EETech" android:label="Electrical and Electronics Technology Technician Program (Turkish)"></activity>
+        <activity android:name=".ComProg" android:label="Computer Programming Technician Program (Turkish)"></activity>
+        <activity android:name=".BioTech" android:label="Biomedical Equipment Technology Technician Program (Turkish)"></activity>
+        <activity android:name=".ATAPP" android:label="Accounting and Taxation Applications Technician Program (Turkish)"></activity>
+        <activity android:name=".ATAPP2" android:label="Accounting and Taxation Applications Associate Program (Turkish)"></activity>
+        <activity android:name=".BankInsr" android:label="Banking and Insurance Associate Program (Turkish)"></activity>
+        <activity android:name=".BioTech2" android:label="Biomedical Equipment Technology Associate Program (Turkish)"></activity>
+        <activity android:name=".CATD" android:label="Computer Aided Technical Drawing Associate Program (Turkish)"></activity>
+        <activity android:name=".ComProg2" android:label="Computer Programming Associate Program (Turkish)"></activity>
+        <activity android:name=".ComProgIT" android:label="CComputer Programming and Information Technology Associate Program"></activity>
+        <activity android:name=".ConstTech2" android:label="Construction Technology Associate Program (Turkish)"></activity>
+        <activity android:name=".EETech2" android:label="Electrical and Electronics Technology Associate Program (Turkish)"></activity>
+        <activity android:name=".MAP" android:label="Mapping and Cadastral Survey Associate Program (Turkish)"></activity>
+        <activity android:name=".Medical" android:label="Medical Documentation and Office Management Associate Program (Turkish)"></activity>
+        <activity android:name=".Office" android:label="Office Management Associate Program (Turkish)"></activity>
+        <activity android:name=".AdminAnnouncement" android:label="Add an Announcement"></activity>
+        <activity android:name=".DelAnn" android:label="Delete Announcement"></activity>
+        <activity android:name=".UpAnn" android:label="Update Announcement"></activity>
+        
+      
+    </application>
+
+</manifest>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/emuwallpaper"
+    android:onClick="clickMsg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp"
+        android:text="Add Announcement" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAddAnnouncement"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:onClick="clickAnnouncement"
+        android:src="@drawable/announcements" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonAddAnnouncement"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:onClick="clickMsg"
+        android:src="@drawable/contact" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonMsg"
+        android:layout_centerHorizontal="true"
+        android:text="Messages" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonAddAnnouncement"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="34dp"
+        android:text="Delete Announcement" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_alignLeft="@+id/textView1"
+        android:onClick="deleann"
+        android:src="@drawable/announcements" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageButtonMsg"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="26dp"
+        android:onClick="updateannoun"
+        android:src="@drawable/announcements" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton2"
+        android:layout_centerHorizontal="true"
+        android:text="Update Announcement" />
+
+</RelativeLayout>
