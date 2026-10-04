@@ -1,8 +1,12 @@
-# SCT Mobile App
+# EMU SCT Mobile App — Master's Graduation Project
 
-Legacy full-stack Android application developed for the School of Computing and Technology at Eastern Mediterranean University.
+**Originally developed: 2014**
 
-The application was designed to provide students and prospective students with information about academic programs, staff, admissions and announcements while also including a basic administration system.
+**Academic project:** Master's graduation project in Information Technology at Eastern Mediterranean University (EMU).
+
+This is a legacy full-stack Android application developed for the **School of Computing and Technology (SCT)** at Eastern Mediterranean University.
+
+The project was designed to provide students and prospective students with information about academic programs, staff, admissions and announcements, while also providing a basic administration system for managing announcements and contact messages.
 
 ## Features
 
@@ -15,30 +19,31 @@ The application was designed to provide students and prospective students with i
 - Contact form
 - Announcements
 - Admin login
-- Admin message management
+- Contact message management
 - Add announcements
 - Update announcements
 - Delete announcements
 
-## Architecture
+## Client-Server Architecture
 
-The project uses a simple client-server architecture:
+The project uses a simple full-stack client-server architecture:
 
-```text
 Android Application
-        ↓
+        |
+        v
       HTTP
-        ↓
+        |
+        v
    PHP Backend
-        ↓
+        |
+        v
    MySQL Database
-```
 
 The Android application communicates with PHP endpoints and exchanges data using JSON.
 
 ## Backend Features
 
-The included PHP backend handles:
+The PHP backend handles:
 
 - Admin authentication
 - Announcement retrieval
@@ -48,17 +53,17 @@ The included PHP backend handles:
 - Contact form submissions
 - Contact message retrieval
 
-## Tech Stack
+## Technology Stack
 
-### Mobile
+### Android Application
 
 - Java
 - Android SDK
 - Eclipse
 - XML layouts
 - Apache HttpClient
-- JSON
 - AsyncTask
+- JSON
 
 ### Backend
 
@@ -67,7 +72,7 @@ The included PHP backend handles:
 
 ## Academic Programs
 
-The application contains information about programs including:
+The application contains information about programs such as:
 
 - Master of Information Technology
 - B.S. Information Technology
@@ -82,34 +87,49 @@ The application contains information about programs including:
 - Office Management
 - Medical Documentation and Office Management
 
-## Project Status
+## Academic Context
 
-This project is a legacy application and is no longer actively maintained.
+This application was originally developed in **2014 as my master's graduation project**.
 
-It is preserved as part of my software development portfolio to demonstrate my earlier experience with:
+It represents my early work with full-stack mobile application development, including:
 
 - Native Android development
 - Client-server communication
-- PHP backend development
-- MySQL database integration
+- Backend development
+- Relational databases
 - JSON-based data exchange
 - Authentication
 - CRUD operations
 
-## Legacy Notice
+## Project Status
 
-The application was developed using technologies and practices that were common at the time.
+This project is a **legacy academic project** and is no longer actively maintained.
 
-Some parts of the project, including the authentication mechanism, HTTP communication and legacy PHP `mysql_*` functions, should not be used in modern production applications.
+The repository is preserved largely in its original architecture to document the technologies, design decisions and development practices used at the time.
 
-A modern implementation would typically use:
+## Legacy and Security Notice
 
-```text
+This application was developed using technologies and practices that were common during its original development period.
+
+Some parts of the project should not be used in a modern production application, including:
+
+- Plain HTTP communication
+- Legacy PHP `mysql_*` functions
+- Client-side credential comparison
+- Older Android networking APIs
+
+A modern implementation should use secure authentication, HTTPS, parameterized database access and server-side authorization.
+
+## Possible Modern Architecture
+
+A modern version could be implemented using:
+
 .NET MAUI
-    ↓
+    |
+    v
 ASP.NET Core Web API
-    ↓
+    |
+    v
 SQL Server
-```
 
-with HTTPS, secure authentication and modern API practices.
+with HTTPS, secure authentication, dependency injection, modern REST API practices and server-side authorization.
